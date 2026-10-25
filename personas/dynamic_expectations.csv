@@ -1,0 +1,5 @@
+persona_before,persona_after,fdc_id,short_name,expected_direction,source
+PA_base,PA_dys,2708981,congee with meat/poultry/seafood,up,user message 2026-10-09 (soft food should rise)
+PA_base,PA_dys,2705956,chicken breast (roasted),down,user message 2026-10-09 section 30 example
+PM_stateA,PM_stateB,2708981,congee with meat/poultry/seafood,up,user message 2026-10-09 section 30 example
+PM_stateA,PM_stateB,2705956,chicken breast (roasted),down,user message 2026-10-09 section 30 example

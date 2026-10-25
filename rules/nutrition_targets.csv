@@ -1,0 +1,15 @@
+parameter,value,unit,operator,used_for,status,source_note
+hba1c_target_pct,7.0,%,>=,derive hba1c_above_target (HbA1c >= value),GUIDELINE_SOURCED,ADA Standards of Care: A1C goal <7% for many nonpregnant adults. ADA also allows less stringent goals (e.g. <8%) for older adults with complex health; kept at 7.0 per user decision 2026-10-09.
+weight_loss_significant_pct,5.0,%,>=,derive weight_loss_significant (weight_loss_pct >= value),GUIDELINE_SOURCED,"GLIM phenotypic criterion: >5% weight loss within past 6 months (or >10% beyond 6 months). Our state has no time window, so the persona value is read as loss over the past 6 months. Kept per user decision 2026-10-09."
+bmi_obesity_kg_m2,30.0,kg/m2,>=,derive bmi_obese (BMI >= value),GUIDELINE_SOURCED,WHO adult obesity cut-off BMI >= 30 (cohort is US NHANES). Kept per user decision 2026-10-09.
+t1d_exclusion_max_dx_age,,years,<,optional T2D operational definition (exclude dx age < value AND insulin),NEEDS_TEAM_DECISION,Blank = not applied. Cohort label stays 'diabetes diagnosis'.
+carb_per_portion_limit_g,,g,,"if filled, limit_carbohydrate uses threshold formula instead of relative rank",NEEDS_GUIDELINE_VERIFICATION,No verified per-portion value yet.
+sugar_per_portion_limit_g,,g,,"if filled, threshold formula",NEEDS_GUIDELINE_VERIFICATION,No verified per-portion value yet.
+fat_per_portion_limit_g,,g,,"if filled, threshold formula",NEEDS_GUIDELINE_VERIFICATION,No verified per-portion value yet.
+energy_density_max_kcal_100g,,kcal/100g,,"if filled, threshold formula",NEEDS_GUIDELINE_VERIFICATION,No verified value yet.
+energy_density_min_kcal_100g,,kcal/100g,,"if filled, threshold formula",NEEDS_GUIDELINE_VERIFICATION,No verified value yet.
+protein_per_portion_min_g,,g,,"if filled, threshold formula",NEEDS_GUIDELINE_VERIFICATION,No verified per-portion value yet.
+sodium_per_portion_limit_mg,,mg,,"if filled, threshold formula",NEEDS_GUIDELINE_VERIFICATION,No verified per-portion value yet.
+satfat_per_portion_limit_g,,g,,"if filled, threshold formula",NEEDS_GUIDELINE_VERIFICATION,No verified per-portion value yet.
+fiber_per_portion_min_g,,g,,"if filled, threshold formula",NEEDS_GUIDELINE_VERIFICATION,No verified per-portion value yet.
+poor_appetite_portion_factor,0.5,ratio,,if poor_appetite: recommended_portion_g = default FNDDS portion x value (ranking unchanged),TEAM_DECISION_2026-10-09,"User decision 2026-10-09: reduce amount when appetite is poor; factor fixed at 0.5 by the research team (design value, not a guideline number)."

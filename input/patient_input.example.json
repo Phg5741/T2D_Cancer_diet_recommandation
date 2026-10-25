@@ -1,0 +1,23 @@
+{
+  "_comment": "Synthetic demonstration input, not an observed patient record. Leave unknown values as null; related rules are skipped. Copy to patient_input.json for local edits.",
+  "patient_id": "demo_synthetic_01",
+  "base_seqn": null,
+  "age": 60,
+  "sex": "female",
+  "bmi": 27.0,
+  "hba1c": 7.5,
+  "diabetes_dx": true,
+  "insulin": false,
+  "diabetes_pills": true,
+  "cancers": ["colon"],
+  "weight_loss_pct": 0,
+  "poor_appetite": false,
+  "dysphagia": false,
+  "mouth_sore": false,
+  "nausea": true,
+  "vomiting": false,
+  "malabsorption": false,
+  "digestion_problem": false,
+  "treatment_stage": null,
+  "top_k": 10
+}

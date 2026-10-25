@@ -1,0 +1,5 @@
+persona_id,fdc_id,short_name,expected_rank,source
+PA_base,2705956,chicken breast (roasted),1,user message 2026-10-09 (temporary student expectation; not a clinical label)
+PA_base,2706362,grilled shrimp,2,user message 2026-10-09 (temporary student expectation; not a clinical label)
+PA_base,2708981,congee with meat/poultry/seafood,3,user message 2026-10-09 (temporary student expectation; not a clinical label)
+PA_base,2707139,New England clam chowder,4,user message 2026-10-09 (temporary student expectation; not a clinical label)

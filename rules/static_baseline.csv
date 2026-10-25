@@ -1,0 +1,5 @@
+condition_id,note
+limit_sodium,general nutrition direction (no patient input)
+limit_saturated_fat,general nutrition direction (no patient input)
+limit_total_sugar,general nutrition direction (no patient input)
+prefer_fiber,general nutrition direction (no patient input)

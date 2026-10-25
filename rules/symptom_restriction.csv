@@ -1,0 +1,21 @@
+rule_id,enabled,scope,trigger,condition_id,action,evidence_level,note
+DM-01,1,diabetes,has_diabetes_dx,limit_carbohydrate,soft,PROVISIONAL_RULE,Diabetes diagnosis -> carbohydrate amount considered (direction only; no target amount)
+DM-02,1,diabetes,hba1c_above_target,limit_total_sugar,soft,PROVISIONAL_RULE,HbA1c at/above target -> also limit total sugar; missing HbA1c -> inactive
+NS-01,1,nutrition_state,bmi_obese,limit_energy_density,soft,PROVISIONAL_RULE,Obesity -> energy density limited; overridden by malnutrition-risk conditions (see conflict_resolution.csv)
+NS-02,1,nutrition_state,weight_loss_significant,prefer_energy_density,soft,TEAM_DECISION_2026-10-09,Weight loss -> energy deficiency risk; energy-density preference kept by user decision 2026-10-09
+NS-03,1,nutrition_state,weight_loss_significant,prefer_protein,soft,PROVISIONAL_RULE,Weight loss -> protein deficiency risk
+SY-01,0,symptom,poor_appetite,prefer_energy_density,soft,REPLACED,"Disabled by user decision 2026-10-09: poor appetite is handled by reducing the portion size (poor_appetite_portion_factor), not by re-ranking"
+SY-02,1,symptom,dysphagia,prefer_soft,soft,PROVISIONAL_RULE,Dysphagia (any cancer)
+SY-03,1,symptom,dysphagia,avoid_hard_texture,soft,PROVISIONAL_RULE,Dysphagia (any cancer)
+SY-04,1,symptom,mouth_sore,avoid_spicy,soft,PROVISIONAL_RULE,Mouth sore (any cancer)
+SY-05,1,symptom,mouth_sore,avoid_acidic,soft,PROVISIONAL_RULE,Mouth sore (any cancer)
+SY-06,1,symptom,mouth_sore,avoid_hot_temperature,soft,PROVISIONAL_RULE,Mouth sore (any cancer)
+SY-07,1,symptom,malabsorption,limit_total_fat,soft,PROVISIONAL_RULE,Malabsorption -> fat-related condition
+SY-08,1,symptom,nausea,avoid_strong_smell,soft,NEEDS_GUIDELINE_VERIFICATION,Commonly given eating hint for nausea; verify source (e.g. NCI Eating Hints)
+SY-09,1,symptom,nausea,avoid_oily,soft,NEEDS_GUIDELINE_VERIFICATION,Commonly given eating hint for nausea; verify source
+SY-10,1,symptom,vomiting,avoid_strong_smell,soft,NEEDS_GUIDELINE_VERIFICATION,verify source
+SY-11,1,symptom,vomiting,avoid_oily,soft,NEEDS_GUIDELINE_VERIFICATION,verify source
+SY-12,1,symptom,digestion_problem,avoid_oily,soft,NEEDS_GUIDELINE_VERIFICATION,verify source
+SY-13,0,symptom,dysphagia,avoid_thin_liquid,soft,NEEDS_TEAM_DECISION,Thin liquids can matter in dysphagia; disabled until team/clinician decides
+GEN-01,1,general_cancer,has_cancer_history,no_alcohol,hard_filter,TEAM_DECISION_2026-10-09,Alcohol hard filter for every cancer-history patient (user decision 2026-10-09). Supporting guidance: ACS guideline for cancer survivors / AICR recommend not drinking alcohol (verify exact citation).
+GEN-02,1,general_cancer,has_cancer_history,prefer_protein,soft,TEAM_DECISION_2026-10-09,"Protein adequacy for every cancer-history patient (user decision 2026-10-09). Supporting guidance: ESPEN cancer guideline protein intake >1 g/kg/day, up to 1.5 g/kg/day (verify exact citation). Direction only; no per-portion target."

@@ -1,0 +1,8 @@
+name: t2dcancer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=2.2
+  - numpy
+  - openpyxl

@@ -1,0 +1,20 @@
+condition_id,kind,feature,direction,method,target_param,label_ko
+no_alcohol,binary,alcohol_flag,avoid,flag,,알코올 포함 음식 제외 (FNDDS Alcohol ethyl > 0)
+avoid_spicy,binary,spicy,avoid,flag,,매운 음식 회피
+avoid_acidic,binary,acidic,avoid,flag,,산성/신 음식 회피
+avoid_hard_texture,binary,hard_texture,avoid,flag,,딱딱하거나 질긴 음식 회피
+prefer_soft,binary,soft,prefer,flag,,부드러운 음식 선호
+prefer_puree,binary,puree,prefer,flag,,퓨레/매끈한 음식 선호
+avoid_oily,binary,oily,avoid,flag,,기름진/튀긴 음식 회피
+avoid_strong_smell,binary,strong_smell,avoid,flag,,냄새가 강한 음식 회피
+avoid_hot_temperature,binary,hot_temperature,avoid,flag,,뜨겁게 먹는 음식 회피
+avoid_thin_liquid,binary,thin_liquid,avoid,flag,,묽은 액체 회피 (기본 비활성)
+limit_carbohydrate,numeric,carbohydrate_g_portion,lower_better,relative_rank,carb_per_portion_limit_g,1회 제공량 탄수화물 제한
+limit_total_sugar,numeric,total_sugar_g_portion,lower_better,relative_rank,sugar_per_portion_limit_g,1회 제공량 총당류 제한
+limit_total_fat,numeric,total_fat_g_portion,lower_better,relative_rank,fat_per_portion_limit_g,1회 제공량 지방 제한
+limit_energy_density,numeric,energy_kcal_100g,lower_better,relative_rank,energy_density_max_kcal_100g,에너지 밀도(kcal/100g) 제한
+prefer_energy_density,numeric,energy_kcal_100g,higher_better,relative_rank,energy_density_min_kcal_100g,에너지 밀도(kcal/100g) 높은 음식 선호
+prefer_protein,numeric,protein_g_portion,higher_better,relative_rank,protein_per_portion_min_g,1회 제공량 단백질 높은 음식 선호
+limit_sodium,numeric,sodium_mg_portion,lower_better,relative_rank,sodium_per_portion_limit_mg,1회 제공량 나트륨 제한
+limit_saturated_fat,numeric,saturated_fat_g_portion,lower_better,relative_rank,satfat_per_portion_limit_g,1회 제공량 포화지방 제한
+prefer_fiber,numeric,fiber_g_portion,higher_better,relative_rank,fiber_per_portion_min_g,1회 제공량 식이섬유 높은 음식 선호

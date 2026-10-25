@@ -1,0 +1,78 @@
+fdc_id,short_name,food_role,spicy,acidic,hard_texture,soft,puree,oily,strong_smell,hot_temperature,thin_liquid,annotator,reviewed,note
+2705956,chicken breast (roasted),protein_dish,0,0,0,0,0,0,0,1,0,claude_draft,0,borderline: lean roasted breast can be dry/chewy
+2706362,grilled shrimp,protein_dish,0,0,0,0,0,0,1,1,0,claude_draft,0,seafood odor
+2706287,grilled salmon,protein_dish,0,0,0,0,0,0,1,1,0,claude_draft,0,fish odor
+2706245,steamed cod,protein_dish,0,0,0,1,0,0,1,1,0,claude_draft,0,flakes easily
+2707154,boiled/poached egg,protein_dish,0,0,0,0,0,0,0,1,0,claude_draft,0,
+2707205,scrambled egg (no fat),protein_dish,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2705830,ribeye steak (lean),protein_dish,0,0,1,0,0,0,0,1,0,claude_draft,0,tough; prolonged chewing
+2706109,roasted turkey light meat,protein_dish,0,0,0,0,0,0,0,1,0,claude_draft,0,
+2707425,lentils (no fat),legume_dish,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2707402,hummus,legume_dish,0,0,0,1,1,0,0,0,0,claude_draft,0,
+2708981,congee with meat/poultry/seafood,soup_porridge,0,0,0,1,0,0,0,1,0,claude_draft,0,used as 'chicken porridge' (FNDDS has no chicken-only congee)
+2708418,congee (plain),soup_porridge,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2707139,New England clam chowder,soup_porridge,0,0,0,1,0,0,1,1,0,claude_draft,0,used as 'clam chowder'
+2707138,Manhattan clam chowder,soup_porridge,0,1,0,1,0,0,1,1,0,claude_draft,0,tomato base
+2709149,chicken noodle soup,soup_porridge,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2707137,cream of chicken soup,soup_porridge,0,0,0,1,1,0,0,1,0,claude_draft,0,
+2707459,split pea soup,soup_porridge,0,0,0,1,1,0,0,1,0,claude_draft,0,
+2707455,miso/tofu soup,soup_porridge,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2709152,ramen noodle soup,soup_porridge,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2706377,chili with meat,mixed_dish,1,1,0,0,0,0,0,1,0,claude_draft,0,
+2708381,oatmeal (water no fat),soup_porridge,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2708434,cream of wheat (water no fat),soup_porridge,0,0,0,1,1,0,0,1,0,claude_draft,0,
+2708408,white rice (no fat),starch_side,0,0,0,0,0,0,0,1,0,claude_draft,0,
+2708414,brown rice (no fat),starch_side,0,0,0,0,0,0,0,1,0,claude_draft,0,
+2707598,white bread,starch_side,0,0,0,0,0,0,0,0,0,claude_draft,0,
+2707710,whole wheat toast,starch_side,0,0,1,0,0,0,0,0,0,claude_draft,0,crisp
+2708357,pasta (cooked),starch_side,0,0,0,0,0,0,0,1,0,claude_draft,0,
+2708811,macaroni with cheese,mixed_dish,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2709496,mashed potato (with milk),starch_side,0,0,0,1,1,0,0,1,0,claude_draft,0,
+2709384,baked potato (no peel),starch_side,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2709699,baked sweet potato,starch_side,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2709458,french fries (fried),starch_side,0,0,1,0,0,1,0,1,0,claude_draft,0,crispy
+2705420,plain nonfat yogurt,dairy_dessert,0,0,0,1,1,0,0,0,0,claude_draft,0,borderline sour taste; not marked acidic
+2705749,cottage cheese,dairy_dessert,0,0,0,1,0,0,0,0,0,claude_draft,0,
+2705387,low fat milk,beverage,0,0,0,1,0,0,0,0,1,claude_draft,0,
+2705630,vanilla ice cream,dairy_dessert,0,0,0,1,1,0,0,0,0,claude_draft,0,
+2705682,custard,dairy_dessert,0,0,0,1,1,0,0,0,0,claude_draft,0,
+2705685,rice pudding,dairy_dessert,0,0,0,1,0,0,0,0,0,claude_draft,0,
+2709216,applesauce (regular),fruit,0,0,0,1,1,0,0,0,0,claude_draft,0,
+2709217,applesauce (unsweetened),fruit,0,0,0,1,1,0,0,0,0,claude_draft,0,
+2705514,fruit smoothie with dairy,dairy_dessert,0,0,0,1,1,0,0,0,0,claude_draft,0,
+2710717,nutritional shake (Ensure),supplement_drink,0,0,0,1,0,0,0,0,1,claude_draft,0,
+2710719,nutritional shake sugar free (Glucerna),supplement_drink,0,0,0,1,0,0,0,0,1,claude_draft,0,
+2709224,banana,fruit,0,0,0,1,0,0,0,0,0,claude_draft,0,
+2709215,apple (raw),fruit,0,0,1,0,0,0,0,0,0,claude_draft,0,
+2709171,orange (raw),fruit,0,1,0,0,0,0,0,0,0,claude_draft,0,
+2709187,orange juice (fresh),beverage,0,1,0,1,0,0,0,0,1,claude_draft,0,
+2709165,grapefruit (raw),fruit,0,1,0,0,0,0,0,0,0,claude_draft,0,
+2709270,watermelon,fruit,0,0,0,1,0,0,0,0,0,claude_draft,0,
+2709719,tomato (raw),vegetable,0,1,0,0,0,0,0,0,0,claude_draft,0,
+2709660,carrot (raw),vegetable,0,0,1,0,0,0,0,0,0,claude_draft,0,
+2709645,broccoli (cooked no fat),vegetable,0,0,0,0,0,0,0,1,0,claude_draft,0,
+2709615,spinach (cooked no fat),vegetable,0,0,0,1,0,0,0,1,0,claude_draft,0,
+2709223,avocado,vegetable,0,0,0,1,0,0,0,0,0,claude_draft,0,
+2707489,almonds (unsalted),snack,0,0,1,0,0,0,0,0,0,claude_draft,0,
+2709422,potato chips,snack,0,0,1,0,0,1,0,0,0,claude_draft,0,
+2708251,hard pretzels,snack,0,0,1,0,0,0,0,0,0,claude_draft,0,
+2708216,popcorn,snack,0,0,1,0,0,0,0,0,0,claude_draft,0,
+2709738,red salsa,condiment,1,1,0,0,0,0,0,0,0,claude_draft,0,
+2710077,kimchi,condiment,1,1,0,0,0,0,1,0,0,claude_draft,0,
+2706070,chicken wings with hot sauce,mixed_dish,1,1,0,0,0,1,0,1,0,claude_draft,0,
+2706796,kung pao chicken,mixed_dish,1,0,0,0,0,1,0,1,0,claude_draft,0,
+2710078,dill pickles,condiment,0,1,1,0,0,0,0,0,0,claude_draft,0,crunchy
+2707431,lentil curry,mixed_dish,1,0,0,1,0,0,1,1,0,claude_draft,0,
+2706364,fried shrimp,protein_dish,0,0,1,0,0,1,1,1,0,claude_draft,0,crispy coating
+2708062,doughnut,dairy_dessert,0,0,0,0,0,1,0,0,0,claude_draft,0,
+2708614,cheese pizza (restaurant),mixed_dish,0,0,0,0,0,1,0,1,0,claude_draft,0,
+2706920,hamburger,mixed_dish,0,0,0,0,0,1,0,1,0,claude_draft,0,
+2705887,pork bacon,protein_dish,0,0,1,0,0,1,1,1,0,claude_draft,0,crisp
+2710541,cola soft drink,beverage,0,1,0,1,0,0,0,0,1,claude_draft,0,carbonated/acidic
+2710313,gelatin dessert (sugar free),dairy_dessert,0,0,0,1,1,0,0,0,0,claude_draft,0,
+2707854,angel food cake,dairy_dessert,0,0,0,1,0,0,0,0,0,claude_draft,0,
+2710488,hot black tea,beverage,0,0,0,1,0,0,0,1,1,claude_draft,0,
+2710616,beer,alcoholic_beverage,0,0,0,1,0,0,0,0,1,claude_draft,0,alcohol comes from nutrient data not annotation
+2710688,red wine,alcoholic_beverage,0,1,0,1,0,0,0,0,1,claude_draft,0,alcohol comes from nutrient data not annotation
+2710700,whiskey,alcoholic_beverage,0,0,0,1,0,0,1,0,1,claude_draft,0,alcohol comes from nutrient data not annotation
+2710610,nonalcoholic beer,beverage,0,0,0,1,0,0,0,0,1,claude_draft,0,edge case: check alcohol nutrient value

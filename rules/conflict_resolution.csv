@@ -1,0 +1,2 @@
+condition_a,condition_b,keep,status,reason
+prefer_energy_density,limit_energy_density,prefer_energy_density,NEEDS_TEAM_DECISION,"Opposite directions on the same feature. Provisional: when weight loss or poor appetite is active, energy intake risk takes priority over the obesity energy-density limit."

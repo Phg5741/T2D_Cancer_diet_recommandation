@@ -1,0 +1,54 @@
+# Downloaded source data and local intermediate tables
+/raw_data/
+/data/*
+!/data/README.md
+!/data/processed/
+/data/processed/*
+!/data/processed/foods_model.csv
+!/data/processed/food_annotation.csv
+!/data/processed/patients_model.csv
+*.xpt
+*.XPT
+*.zip
+
+# Local patient inputs: publish only the synthetic example
+/input/*
+!/input/patient_input.example.json
+
+# Regenerable results and upload packages
+/output/
+/outputs/
+/dist/
+/build/
+*.log
+
+# Python caches, environments and test artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Machine-specific settings and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.vscode/
+.idea/
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini

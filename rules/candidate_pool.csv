@@ -1,0 +1,14 @@
+food_role,include,note
+protein_dish,1,
+legume_dish,1,
+soup_porridge,1,
+mixed_dish,1,
+starch_side,1,
+vegetable,1,
+fruit,1,
+dairy_dessert,1,
+snack,1,
+supplement_drink,1,oral nutrition drinks kept (relevant for poor appetite)
+beverage,0,"excluded from food ranking: with only 'limit' conditions, near-empty items (tea, diet drinks) win"
+condiment,0,"excluded: eaten as small add-ons, not as a food choice"
+alcoholic_beverage,1,"kept in the pool so GEN-01 (alcohol hard filter for all cancer-history patients) is visible in the output"

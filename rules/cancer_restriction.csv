@@ -1,0 +1,20 @@
+rule_id,enabled,cancer_code,cancer_label,requires_state,condition_id,action,evidence_level,note
+CA-17-1,1,17,esophagus,dysphagia,avoid_spicy,soft,PROVISIONAL_RULE,Only with dysphagia (esophagitis not modeled)
+CA-17-2,1,17,esophagus,dysphagia,avoid_hot_temperature,soft,PROVISIONAL_RULE,Only with dysphagia
+CA-17-3,1,17,esophagus,dysphagia,avoid_acidic,soft,PROVISIONAL_RULE,Only with dysphagia
+CA-17-4,1,17,esophagus,dysphagia,avoid_hard_texture,soft,PROVISIONAL_RULE,Only with dysphagia
+CA-17-5,1,17,esophagus,dysphagia,prefer_soft,soft,PROVISIONAL_RULE,Only with dysphagia
+CA-18-1,1,18,gallbladder,malabsorption|digestion_problem,limit_total_fat,soft,PROVISIONAL_RULE,Not applied by cancer type alone
+CA-18-2,1,18,gallbladder,malabsorption|digestion_problem,avoid_oily,soft,PROVISIONAL_RULE,Not applied by cancer type alone
+CA-19-0,1,19,kidney,always,none,none,PROVISIONAL_RULE,No meat ban; general cancer nutrition only
+CA-22-1,1,22,liver,always,no_alcohol,hard_filter,PROVISIONAL_RULE,Alcohol avoidance
+CA-22-2,1,22,liver,digestion_problem,prefer_soft,soft,PROVISIONAL_RULE,Soft/easily digestible only with symptom
+CA-26-1,1,26,mouth_tongue_lip,mouth_sore|dysphagia,avoid_acidic,soft,PROVISIONAL_RULE,Only with oral symptom
+CA-26-2,1,26,mouth_tongue_lip,mouth_sore|dysphagia,avoid_spicy,soft,PROVISIONAL_RULE,Only with oral symptom
+CA-26-3,1,26,mouth_tongue_lip,mouth_sore|dysphagia,avoid_hot_temperature,soft,PROVISIONAL_RULE,Only with oral symptom
+CA-26-4,1,26,mouth_tongue_lip,mouth_sore|dysphagia,avoid_hard_texture,soft,PROVISIONAL_RULE,Only with oral symptom
+CA-26-5,1,26,mouth_tongue_lip,mouth_sore|dysphagia,prefer_soft,soft,PROVISIONAL_RULE,Only with oral symptom
+CA-26-6,1,26,mouth_tongue_lip,mouth_sore|dysphagia,prefer_puree,soft,PROVISIONAL_RULE,Only with oral symptom
+CA-29-1,1,29,pancreas,malabsorption,limit_total_fat,soft,PROVISIONAL_RULE,No blanket low-fat; only with malabsorption/pancreatic insufficiency
+CA-34-0,1,34,soft_tissue,always,none,none,PROVISIONAL_RULE,No texture/spicy restriction from cancer type
+CA-35-0,0,35,stomach,digestion_problem,none,none,NEEDS_TEAM_DECISION,"Surgery, dumping-related symptoms and intake tolerance are not in the state yet; general rules only"

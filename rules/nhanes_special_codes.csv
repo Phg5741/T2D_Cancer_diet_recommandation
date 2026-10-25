@@ -1,0 +1,16 @@
+variable,code,meaning,action,status
+RIDAGEYR,80,80 years and over (top-coded),keep_value_flag_topcoded,NHANES_CODEBOOK_VERIFY
+DID040,999,Don't know,set_missing,NHANES_CODEBOOK_VERIFY
+DID040,777,Refused,set_missing,NHANES_CODEBOOK_VERIFY
+DID060,999,Don't know,set_missing,NHANES_CODEBOOK_VERIFY
+DID060,777,Refused,set_missing,NHANES_CODEBOOK_VERIFY
+DIQ050,7,Refused,set_missing,NHANES_CODEBOOK_VERIFY
+DIQ050,9,Don't know,set_missing,NHANES_CODEBOOK_VERIFY
+DIQ070,7,Refused,set_missing,NHANES_CODEBOOK_VERIFY
+DIQ070,9,Don't know,set_missing,NHANES_CODEBOOK_VERIFY
+MCQ230A,77,Refused,set_missing,NHANES_CODEBOOK_VERIFY
+MCQ230A,99,Don't know,set_missing,NHANES_CODEBOOK_VERIFY
+MCQ230B,77,Refused,set_missing,NHANES_CODEBOOK_VERIFY
+MCQ230B,99,Don't know,set_missing,NHANES_CODEBOOK_VERIFY
+MCQ230C,77,Refused,set_missing,NHANES_CODEBOOK_VERIFY
+MCQ230C,99,Don't know,set_missing,NHANES_CODEBOOK_VERIFY

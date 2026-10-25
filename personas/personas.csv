@@ -1,0 +1,10 @@
+persona_id,base_seqn,label_type,description,age,sex,bmi,hba1c,insulin,diabetes_pills,diabetes_dx,cancer_codes,weight_loss_pct,poor_appetite,dysphagia,mouth_sore,nausea,vomiting,malabsorption,digestion_problem,treatment_stage
+PA_base,130434,scenario_on_nhanes,"Patient A (user example): NHANES observed values; all symptoms set False by scenario",,,,,,,,,0,false,false,false,false,false,false,false,
+PA_dys,130434,scenario_on_nhanes,"Patient A after state change: dysphagia + poor appetite + weight loss (scenario)",,,,,,,,,6,true,true,false,false,false,false,false,
+PM_nausea,134825,scenario_on_nhanes,"Milestone example (age 65, HbA1c 7.6, BMI 41.4, colon+stomach) + nausea (scenario); weight change unknown",,,,,,,,,,false,false,false,true,false,false,false,
+PM_stateA,134825,scenario_on_nhanes,"Section 30 State A: dysphagia False, poor appetite False",,,,,,,,,0,false,false,false,false,false,false,false,
+PM_stateB,134825,scenario_on_nhanes,"Section 30 State B: dysphagia True, poor appetite True (weight loss unchanged)",,,,,,,,,0,true,true,false,false,false,false,false,
+PE_eso_dys,141701,scenario_on_nhanes,"Esophageal cancer history (NHANES) + dysphagia (scenario)",,,,,,,,,0,false,true,false,false,false,false,false,
+PL_liver,136385,scenario_on_nhanes,"Liver cancer history (NHANES); no symptoms (scenario)",,,,,,,,,0,false,false,false,false,false,false,false,
+PX_liver_mouth,,synthetic,"Fully synthetic: liver + mouth cancer history, mouth sore",60,male,24,7.5,false,true,true,22;26,0,false,false,true,false,false,false,false,
+PP_panc_noa1c,133092,scenario_on_nhanes,"Pancreatic cancer history (NHANES, HbA1c missing in NHANES) + malabsorption (scenario)",,,,,,,,,0,false,false,false,false,false,true,false,
