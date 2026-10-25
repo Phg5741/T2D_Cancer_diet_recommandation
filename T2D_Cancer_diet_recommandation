@@ -1,1 +1,0 @@
-# T2D_Cancer_diet_recommandation
